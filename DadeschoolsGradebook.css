@@ -1,0 +1,81 @@
+@-moz-document domain("gradebook.dadeschools.net") {
+    :root {
+        /* Red * /
+        --dmc-rice-fg: #e5e5e5;
+        --dmc-rice-bg1: #363636;
+        --dmc-rice-bg2: #4b4b4b;
+        --dmc-rice-bg3: #606060;
+        --dmc-rice-acc: #b13333; 
+       /**/
+        /* Green * /
+        --dmc-rice-fg: #e5e5e5;
+        --dmc-rice-bg1: #2d312f;
+        --dmc-rice-bg2: #3d4442;
+        --dmc-rice-bg3: #414f4a;
+        --dmc-rice-acc: #33b17d;
+        /**/
+        /* Blue */
+        --dmc-rice-fg: #e5e5e5;
+        --dmc-rice-bg1: #2d2f31;
+        --dmc-rice-bg2: #3d3e44;
+        --dmc-rice-bg3: #41434f;
+        --dmc-rice-acc: #3359b1;
+        /**/
+        /* Purple * /
+        --dmc-rice-fg: #e5e5e5;
+        --dmc-rice-bg1: #312d31;
+        --dmc-rice-bg2: #443d42;
+        --dmc-rice-bg3: #4f4148;
+        --dmc-rice-acc: #b1339e;
+        /**/
+        /* BW * /
+        --dmc-rice-fg: #e5e5e5;
+        --dmc-rice-bg1: hsl(300, 0%, 18%);
+        --dmc-rice-bg2: hsl(317, 0%, 25%);
+        --dmc-rice-bg3: hsl(330, 0%, 28%);
+        --dmc-rice-acc: hsl(309, 0%, 45%);
+        /**/
+    }
+
+    * {
+
+        color: var(--dmc-rice-fg) !important;
+        scrollbar-color: dark;
+        scrollbar-width: none;
+    }
+
+    .side-bar .user-info strong,
+    .side-bar .user-info small {
+        color: var(--dmc-rice-fg) !important;
+    }
+
+    :not(#Main) {
+        border: none !important;
+    }
+
+    #header,
+    .TopBar,
+    #ContentMain,
+    body,
+    html,
+    ul.mtabs li {
+        background: var(--dmc-rice-bg1) !important;
+    }
+    #ContentHeader,
+    .breadcrumb,
+    .letter,
+    .heading,
+    time span {
+        background: var(--dmc-rice-acc) !important;
+    }
+
+    .side-bar * {
+        background: var(--dmc-rice-bg2) !important;
+    }
+
+    a.letter-container:hover,
+    tbody tr.hover,
+    time {
+        background: var(--dmc-rice-bg3) !important;
+    }
+}
